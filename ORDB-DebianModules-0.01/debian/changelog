@@ -1,0 +1,5 @@
+libordb-debianmodules-perl (0.01-1) UNRELEASED; urgency=low
+
+  * Initial Release. (closes: #585597)
+
+ -- Alan Haggai Alavi <alanhaggai@alanhaggai.org>  Sat, 12 Jun 2010 11:17:32 +0530

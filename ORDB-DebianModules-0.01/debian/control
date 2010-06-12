@@ -1,0 +1,17 @@
+Source: libordb-debianmodules-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: liborlite-mirror-perl (>= 1.15), libparams-util-perl, perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Alan Haggai Alavi <alanhaggai@alanhaggai.org>
+Standards-Version: 3.8.4
+Homepage: http://search.cpan.org/dist/ORDB-DebianModules/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libordb-debianmodules-perl/
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libordb-debianmodules-perl/
+
+Package: libordb-debianmodules-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, liborlite-mirror-perl (>= 1.15),
+ libparams-util-perl
+Description: An ORLite-based ORM Database API
